@@ -1,0 +1,2 @@
+import{showAlert,validateIfFormFilled}from"./function.js";import{newCustomer}from"./API.js";document.querySelector("#formulario").addEventListener("submit",(function(e){e.preventDefault();const o=document.querySelector("#nombre").value,t=document.querySelector("#email").value,r=document.querySelector("#telefono").value,l=document.querySelector("#empresa").value,m={name:o,email:t,tel:r,company:l};validateIfFormFilled(m)?newCustomer(m):showAlert("All inputs are mandatory.")}));
+//# sourceMappingURL=newcustomer.js.map

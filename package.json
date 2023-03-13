@@ -1,0 +1,30 @@
+{
+  "name": "44-proyecto-crm-crud-rest",
+  "version": "1.0.0",
+  "description": "This is a little CRM built with HTML, CSS, Tailwind, and of course JavaScript Vanilla ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3.",
+    "Tailwind",
+    "JavaScript",
+    "Vanilla",
+    "JSON-Server"
+  ],
+  "author": "Jake Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0"
+  }
+}
